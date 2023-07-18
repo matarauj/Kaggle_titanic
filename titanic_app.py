@@ -16,7 +16,7 @@ from sklearn.preprocessing import OneHotEncoder
 
 
 # Import training data
-DF = pd.read_csv("C:\\Users\\matia\\OneDrive\\Documentos\\Study\\Scripts\\01_Classification_Titanic\\titanic\\train.csv", header = 0)
+DF = pd.read_csv("train.csv", header = 0)
 X = DF.drop(['Survived'], axis = 1)
 
 
